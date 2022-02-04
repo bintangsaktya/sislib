@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <script language="javascript" src="../assets/js/serverDate.js"></script>
+    <link rel="stylesheet" href="../assets/css/stylesys.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="logo">LIBRARY INFORMATION SYSTEM</h2>
+        <div class="submenu">
+
+            <a class="navItem">
+                <script language="javascript">
+                    var localTime = new Date();
+                    document.write("Server Time : " + localTime );        
+                </script>                            
+            </a>
+          
+            
+            <a href="login.html" class="navItem login">Logout</a>
+        </div>
+    </nav>
+
+    <section id="dashboard">
+        <div class="initiator">
+            <div class="initiated">
+                <img src="../assets/img/pp.jpeg" alt="" class="profilePic">
+                <p class="logName"><b>Bintang Saktya</b></p>
+            </div>
+
+            <div class="initStatus">
+                <p>Logged As : </p><h4 class="boxed">ADMINISTRATOR</h4>
+            </div>
+           
+        </div>
+
+        <div class="horizontalMenu">
+            <a href="../index.html" class="actHoriMenu">Menu</a>
+            <a href="#">Profile</a>
+            <a href="#">Notification</a>
+            <a href="#">To-Do List</a>
+        </div>
+
+
+
+        <div class="operator">
+            <div class="leftSide">
+                <a href="#" class="leftMain">Main Page</a>
+
+                <a href="#" class="leftMain">Data Master</a> 
+                <a href="#">Member Data</a>
+                <a href="#">Book Data</a>
+
+                <a href="#" class="leftMain">Transaction Data</a> 
+                <a href="#">Lending Transaction</a>
+                <a href="#">Return Transaction</a>
+
+                <a href="#" class="leftMain">Report</a>
+            </div>
+
+            <div class="rightSide">
+                <img src="../assets/img/lib2.jpg" alt="" class="dashImage">
+                <h2>The Best Library Ever</h2>
+                <p>Jl. Kucing Terbang No. 15, Jawa Selatan. 0821234567890</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="footer">
+        <h2>LIBRARY <br>INFORMATION <br>SYSTEM</h2>
+
+        <div class="contactCenter">
+            <p>
+                Phone : 081234567890 <br>
+                Line : sislib2021
+            </p>
+        </div>
+
+    </section>
+
+ 
+</body>
+</html>

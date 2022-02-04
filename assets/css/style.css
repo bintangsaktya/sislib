@@ -1,0 +1,86 @@
+body{
+ 
+    font-family: Poppins, sans-serif;
+    background-image: url("../img/lib2.jpg");
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    margin: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+h1{
+    margin-top: 7rem;
+    color: white;
+}
+
+.loginBox{
+  
+    width: 20rem;
+    height: 25rem;
+    background-color: white;
+    background-image: url("../img/ribbonan.png");
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    background-size: 7vh;
+    
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    width: 30vh;
+    height: 5vh;
+    border-radius: 3vh;
+    border: 2px solid #2b7fdf;
+    text-align: center;
+}
+
+.separator{
+    background-color: #2b7fdf;
+    width: 150px;
+    height: 7px;
+    border-radius: 100px;
+}
+
+
+
+.btnLogin{
+    width: 15vh;
+    height: 4vh;
+    background-color: #2b7fdf;
+    color: white;
+    font-weight: 700;
+    border-radius: 100vh;
+    border: none;
+}
+
+.getUname{
+    margin-top: 20px;
+    width: 20rem;
+    height: 6rem;
+    position: relative;
+    background-color: #2b7fdf;
+    border-radius:  0 0 1rem 1rem;
+    
+    
+}
+
+.getUname a{
+    color: white;
+    
+    text-decoration: none;
+}
+
+
+/* INDEX */
+

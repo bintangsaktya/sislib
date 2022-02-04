@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+    background-color: #F1F1F1;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+button{
+    background-color: #399EB5;
+    margin-bottom: 2vh;
+    color: white;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    font-weight: 300;
+    transition: background 0.5s, 'font-weight' 0.5s;
+}
+
+button:hover{
+    background-color: #9fc6cf;
+    font-weight: 700;
+}
+
+
+/* navbar */
+
+.navbar{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    color: #29416F;
+    font-family: Poppins, sans-serif;
+    background-color: white;
+    background-image: url(../img/ribbonan.png);
+    background-position: 15px top;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #a1adc5;
+}
+
+.logo{
+    padding-left: 70px;
+    font-size: 2rem;
+}
+
+.navbar .submenu{
+    margin-left: auto;
+    margin-right: 70px;
+    align-content: center;
+    color: white; 
+    display: flex;
+}
+
+
+.navbar a{
+    padding: 0 10px ;
+    color: #29416F;
+    text-decoration: none;
+
+} 
+
+
+.navItem:hover .underline{
+    background-color: #29416F;
+}
+
+.underline{
+    width: 5px;
+    height: 5px;
+    border-radius: 99px;
+    transition: background 0.5s;
+}
+
+
+.navItem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login{
+    background-color: #399EB5;
+    color: white !important;
+    font-weight: 500 !important;
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    font-weight: 300;
+    transition: background 0.5s;
+}
+
+.login:hover{
+    background-color: #9fc6cf;
+}
+
+/* CONTENT SECTION */
+
+#dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.initiator{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+ 
+    padding: 20px;
+    
+}
+
+.initiated{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    font-size: 1.4rem;
+
+}
+
+.profilePic{
+    width: 15vh;
+    border-radius: 100%;
+}
+
+.logName{
+    color: #399EB5;
+    margin-left: 30px;
+}
+
+.boxed{
+    padding: 0.8rem;
+    margin-left: 20px;
+    border: 1px solid #29416F;
+}
+
+.initStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* HORIMENU */
+
+.horizontalMenu{
+    width: 100%;
+    height: 7vh;
+    background-color: #F9F9F9;
+    display: flex;
+    border-top: 1px solid #a1adc5;
+    border-bottom: 1px solid #a1adc5;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.horizontalMenu a{
+    text-decoration: none;
+    color: #7b8392;
+}
+
+.horizontalMenu a:hover{
+    color: #FF9A24;   
+    transition: background 0.5s;
+}
+
+.actHoriMenu{
+    color: #FF9A24 !important;
+    border-bottom: 4px solid #FF9A24;
+}
+
+/* SECT */
+
+
+.upperReminder{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.btnPlace a{
+    
+    
+    background-color: #7b8392;
+    color: white;
+    border-radius: 100px;
+}
+
+.operator{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 90px 30px 90px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #a1adc5;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    
+    border-right: 1px solid #a1adc5;
+
+}
+
+.leftSide a{
+    /* background-color: #399EB5; */
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #a1adc5;
+    
+    padding: 20px;
+}
+
+.leftSide .leftMain{
+    background-color: #399EB5 !important;
+    font-weight: 700;
+    color: white;
+}
+
+.rightSide{
+    /* background-color: #399EB5; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.dashImage{
+    width: 500px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color: #414042;
+    color: white;
+}
